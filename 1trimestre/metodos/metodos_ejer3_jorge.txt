@@ -1,0 +1,11 @@
+3.- Proporcione el encabezado para cada uno de los siguientes metodos:
+a) El metodo hipotenusa, que toma dos argumentos de punto fl otante con doble precision,
+llamados lado1 y lado2, y que devuelve un resultado de punto flotante, con doble precision. -> public double hipotenusa(double lado1,double lado2){}
+
+b) El metodo menor, que toma tres enteros x, y y z, y devuelve un entero.-> public int menor(int x,int y, int z){}
+
+c) El metodo instrucciones, que no toma argumentos y no devuelve ningun valor. (Nota: estos
+metodos se utilizan comunmente para mostrar instrucciones a un usuario).-> public void instrucciones(){}
+
+d) El metodo intAFloat, que toma un argumento entero llamado numero y devuelve un
+resultado de punto flotante. -> public float intAFloat(int numero){}

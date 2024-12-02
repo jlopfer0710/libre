@@ -1,0 +1,57 @@
+4.- Encuentre el error en cada uno de los siguientes segmentos de programas. Explique como se
+puede corregir el error.
+a)
+int g() {
+    System.out.println( "Dentro del metodo g" );
+    int h() {
+        System.out.println( "Dentro del método h" );
+    }
+}
+Ambas cabeceras declaran que los métodos son de tipo int pero no devuelve ningún tipo de dato, como solucionarlo o añadiendo un return o cambiando las cabeceras a void ejemplo:
+
+void g() {
+    System.out.println( "Dentro del metodo g" );
+    void h() {
+        System.out.println( "Dentro del método h" );
+    }
+}
+----------------------------------------------------------------
+b)
+int suma( int x, int y ) {
+    int resultado;
+    resultado = x + y;
+}
+En la cabecera pone que el método es de tipo int pero no devuelve ningún resultado CORRECCIÓN:
+
+int suma( int x, int y ) {
+    int resultado;
+    resultado = x + y;
+    return resultado;
+}
+--------------------------------------------------------------------
+c)
+voit f( float a );
+{
+    float a;
+    System.out.println( a );
+}
+La cabecera está mal escrita, hay un ; delante del corchete de apertura y se vuelve a declarar la variable a cuando ya la pasas por parámetro CORRECIÓN:
+
+void f(float){
+    System.out.println(a);
+
+}
+--------------------------------------------------------------------
+d)
+voit producto() {
+    int a = 6, b = 5, c = 4, resultado;
+    resultado = a * b * c;
+    System.out.printf( "El resultado es %d\n", resultado );
+    return resultado;
+}
+La cabecera está mal escrita y se está usando de forma incorrecta el return ya que se declara en la cabecera del método, lo siguiente no es un error como tal pero te ahorras una línea de código poniendo directamente el valor del resultado CORRECCIÓN:
+
+void producto(){
+    int a=6,b=5,c=a,resultado=a*b*c;
+    System.out.printf("El resultado es %d\n", resultado );
+}

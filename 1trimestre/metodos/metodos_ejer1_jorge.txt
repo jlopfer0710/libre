@@ -1,0 +1,9 @@
+1. Complete las siguientes oraciones:
+a) A una variable que se conoce solo dentro del método en el que esta declarada, se le llama
+variable local.
+b) La instrucción return en un método llamado puede usarse para regresar el valor de
+una expresión, al método que hizo la llamada.
+c) La palabra clave void indica que un metodo no devuelve ningun valor.
+d) En Java, es posible tener varios metodos con el mismo nombre, en donde cada uno opere con
+distintos tipos o numeros de argumentos. A esta caracteristica se le llama sobrecarga de
+metodos.

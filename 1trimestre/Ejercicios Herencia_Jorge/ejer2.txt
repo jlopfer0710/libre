@@ -1,0 +1,35 @@
+2.- Conteste con verdadero o falso a cada una de las siguientes proposiciones; en caso de ser falso,
+explique por qué.
+a) Los constructores de la superclase no son heredados por las subclases. ->VERDADERO
+b) Una relación “tiene un” se implementa mediante la herencia. -> FALSO 
+
+Una relación “tiene un” no se implementa mediante la herencia 
+sino mediante composición o agregación. En una relación "tiene un", una clase incluye referencias a otras clases como miembros.
+
+--------------------------------------------------------------------------------------
+c) Una clase Auto tiene una relación “es un” con las clases VolanteDireccion y Frenos .-> FALSO
+
+Una clase Auto no tiene una relación “es un” con las clases VolanteDireccion y Frenos. 
+Más bien, tiene una relación "tiene un" con estas clases, ya que un Auto tiene un volante y frenos como partes componentes.
+-------------------------------------------------------------------------------------------
+d) La herencia fomenta la reutilización de software comprobado, de alta calidad.->VERDADERO
+e) Cuando una subclase redefine al método de una superclase utilizando la misma firma, se 
+dice que la subclase sobrecarga a ese método de la superclase.->FALSO
+
+Cuando una subclase redefine el método de una superclase utilizando la misma firma, se dice que la subclase sobrescribe (override) el método, 
+no que lo sobrecarga (overload). La sobrecarga implica que hay varios métodos con el mismo nombre pero diferentes parámetros.
+-------------------------------------------------------------------------------------------------
+f) Es posible tratar a los objetos de superclase y a los objetos de subclase de manera similar.->VERDADERO
+g) Todos los métodos en una clase abstract deben declararse como métodos abstract .->FALSO
+
+No todos los métodos en una clase abstracta deben declararse como métodos abstract. 
+Una clase abstracta puede contener tanto métodos abstractos como métodos concretos con implementaciones.
+---------------------------------------------------------------------------------------------------
+h) Es peligroso tratar de invocar a un método que sólo pertenece a una subclase, a través de una
+variable de subclase.->FALSO
+
+Es peligroso invocar un método que sólo pertenece a una subclase si se está utilizando una referencia de la superclase. 
+Sin embargo, no hay problema si la referencia es de la subclase, ya que esta incluye todos los métodos de la subclase y de la superclase.
+-------------------------------------------------------------------------------------------
+i) Si una superclase declara a un método como abstract, una subclase debe implementar a ese
+método.->VERDADERO
